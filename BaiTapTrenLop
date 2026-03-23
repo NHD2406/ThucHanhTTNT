@@ -1,0 +1,296 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "mount_file_id": "1bUh0v7hhE11SIG_xrmI7bfvyfzekEFrC",
+      "authorship_tag": "ABX9TyPVbA4cO+TVeuuYuJ0QL5xc",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/NHD2406/ThucHanhTTNT/blob/main/BaiTapTrenLop\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\"\"Bài 1\"\"\"\n",
+        "x= int(input(\"Nhap gia tri x: \"))\n",
+        "y= int(input(\"Nhap gia tri y: \"))\n",
+        "print(\"Tong: \",x+y)\n",
+        "print(\"Hieu: \",x-y)\n",
+        "print(\"Tich: \",x*y)\n",
+        "print(\"Thuong: \",x/y)"
+      ],
+      "metadata": {
+        "id": "EbvR3XOsstt4"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\"\"Bài 2\"\"\"\n",
+        "x=\"Hello World\"\n",
+        "substring = x[2:5]\n",
+        "print(substring)"
+      ],
+      "metadata": {
+        "id": "efKre6rtt2-J"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\"\"Bài 3\"\"\"\n",
+        "stripped_string = original_string.strip()\n",
+        "print(f\"Sau khi xóa khoảng trắng thừa: '{stripped_string}'\")\n",
+        "uppercase_string = stripped_string.upper()\n",
+        "print(f\"Chuỗi in hoa: '{uppercase_string}'\")\n",
+        "\n",
+        "lowercase_string = stripped_string.lower()\n",
+        "print(f\"Chuỗi in thường: '{lowercase_string}'\")\n",
+        "\n",
+        "replaced_string = stripped_string.replace('H', 'J')\n",
+        "print(f\"Sau khi thay 'H' bằng 'J': '{replaced_string}'\")\n"
+      ],
+      "metadata": {
+        "id": "bulIg5n1v33f"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "26b52266"
+      },
+      "source": [
+        "\"\"\"Bài 4\"\"\"\n",
+        "a=int (input(\"Nhap a: \"))\n",
+        "b=int (input(\"Nhap b: \"))\n",
+        "if(a>b):\n",
+        "  print(\"Hello World!\")\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "e382cacb"
+      },
+      "source": [
+        "\"\"\"Bài 5\"\"\"\n",
+        "a=int (input(\"Nhap a: \"))\n",
+        "b=int (input(\"Nhap b: \"))\n",
+        "if(a==b):\n",
+        "  print(\"Yes\")\n",
+        "else: print(\"No\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "89d3aa83"
+      },
+      "source": [
+        "\"\"\"Bài 6\"\"\"\n",
+        "a=int (input(\"Nhap a: \"))\n",
+        "b=int (input(\"Nhap b: \"))\n",
+        "if(a==b):\n",
+        "  print(\"1\")\n",
+        "elif(a>b):\n",
+        "  print(\"2\")\n",
+        "else: print(\"No\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "fa7b4cf7"
+      },
+      "source": [
+        "\"\"\"Bài 7\"\"\"\n",
+        "a=int (input(\"Nhap a: \"))\n",
+        "b=int (input(\"Nhap b: \"))\n",
+        "d=int (input(\"Nhap d: \"))\n",
+        "if(a==b and b==d):\n",
+        "  print(\"Hello World!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "b5e6e606"
+      },
+      "source": [
+        "\"\"\"Bài 8\"\"\"\n",
+        "a=int (input(\"Nhap a: \"))\n",
+        "b=int (input(\"Nhap b: \"))\n",
+        "c=int (input(\"Nhap c: \"))\n",
+        "d=int (input(\"Nhap d: \"))\n",
+        "if(a==b or c==d):\n",
+        "  print(\"Hello World!\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\"\"Bài 9\"\"\"\n",
+        "a=int (input(\"Nhap a: \"))\n",
+        "b=int (input(\"Nhap b: \"))\n",
+        "print(\"Yes\") if(a>b) else print(\"No\")"
+      ],
+      "metadata": {
+        "id": "vz3k1O7ly3m_"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\"\"Bài 10\"\"\"\n",
+        "a=int (input(\"Nhap a: \"))\n",
+        "b=int (input(\"Nhap b: \"))\n",
+        "print(\"A\") if a > b else print(\"=\") if a == b else print(\"B\")"
+      ],
+      "metadata": {
+        "id": "fO1XRPsRy3gA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\"\"Bài 11\"\"\"\n",
+        "n = int(input(\"Nhập số lượng phần tử cho mảng a: \"))\n",
+        "a = []\n",
+        "for i in range(n):\n",
+        "    element = int(input(f\"Nhập phần tử thứ {i+1} của mảng a: \"))\n",
+        "    a.append(element)\n",
+        "\n",
+        "b = []\n",
+        "for element in a:\n",
+        "    if element % 2 == 0:\n",
+        "        b.append(element)\n",
+        "\n",
+        "print(f\"Mảng a đã nhập: {a}\")\n",
+        "print(f\"Mảng b (chỉ chứa các phần tử chẵn của a): {b}\")"
+      ],
+      "metadata": {
+        "id": "ep6y8TeCy3Wg"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "75e9648b"
+      },
+      "source": [
+        "### Tính tổng các số từ 0 đến 999 là bội của 3 hoặc 5"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "34920fbe"
+      },
+      "source": [
+        "\"\"\"Bài 12\"\"\"\n",
+        "total_sum = 0\n",
+        "for number in range(1000):\n",
+        "    if (number % 3 == 0) or (number % 5 == 0):\n",
+        "        total_sum += number\n",
+        "\n",
+        "print(f\"Tổng các số từ 0 đến 999 là bội của 3 hoặc 5 là: {total_sum}\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "595ac2c4"
+      },
+      "source": [
+        "### Hàm trộn 2 mảng một chiều"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "13724360"
+      },
+      "source": [
+        "\"\"\"Bài 13\"\"\"\n",
+        "def merge_arrays_with_sum(arr1, arr2):\n",
+        "    result_array = []\n",
+        "    len1 = len(arr1)\n",
+        "    len2 = len(arr2)\n",
+        "    min_len = min(len1, len2)\n",
+        "    for i in range(min_len):\n",
+        "        result_array.append(arr1[i] + arr2[i])\n",
+        "    if len1 > min_len:\n",
+        "        result_array.extend(arr1[min_len:])\n",
+        "    elif len2 > min_len:\n",
+        "        result_array.extend(arr2[min_len:])\n",
+        "    return result_array\n",
+        "arr_a = [3, 9, 1, 4]\n",
+        "arr_b = [2, 7, 4, 3, 2, 8]\n",
+        "merged_result = merge_arrays_with_sum(arr_a, arr_b)\n",
+        "print(f\"Mảng a: {arr_a}\")\n",
+        "print(f\"Mảng b: {arr_b}\")\n",
+        "print(f\"Mảng kết quả: {merged_result}\")\n",
+        "arr_x = [1, 2, 3, 4, 5]\n",
+        "arr_y = [10, 20]\n",
+        "merged_result_xy = merge_arrays_with_sum(arr_x, arr_y)\n",
+        "print(f\"\\nMảng x: {arr_x}\")\n",
+        "print(f\"Mảng y: {arr_y}\")\n",
+        "print(f\"Mảng kết quả (x,y): {merged_result_xy}\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "BFSUm4n01Seg"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
